@@ -73,8 +73,13 @@ export default {
       }
     }
     const validatePassword = (rule, value, callback) => {
-      if (value.length < 6) {
-        callback(new Error('密码长度不能少于6位数！'))
+      // if (value.length < 6) {
+      //   callback(new Error('密码长度不能少于6位数！'))
+      // } else {
+      //   callback()
+      // }
+      if (value!=='111111') {
+        callback(new Error('密码不正确！'))
       } else {
         callback()
       }

@@ -88,6 +88,7 @@ export default {
     async getRoutes() {
       const res = await getRoutes()
       this.serviceRoutes = res.data
+      console.log(res)
       const routes = this.generateRoutes(res.data)
       this.routes = this.i18n(routes)
     },
