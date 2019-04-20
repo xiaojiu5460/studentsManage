@@ -4,7 +4,7 @@ export default {
         introduction: '简述',
         documentation: '文档',
         guide: '引导页',
-        permission: '权限测试页',
+        permission: '权限管理',
         rolePermission: '角色权限',
         pagePermission: '页面权限',
         directivePermission: '指令权限',
